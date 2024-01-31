@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, Sans serif;
+  background-color: #EBF0F2;
+  padding-left: 170px;
+  padding-right: 170px;
+  left: 0;
+  right: 0;
+}
+
+.background {
+  position: relative;
+  background-image: url('../images/background2.png');
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  left: 0;
+  right: 0;
+}
+
+.color {
+  position: relative;
+  height: auto;
+  width: auto;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header1 {
+  background-color: white;
+  height: 150px;
+  margin-top: 16px;
+}
+
+/* -------------------------------------  Start of Breadcrumbs  --------------------------------------- */
+
+.breadcrumbs {
+  display: inline-flex;
+  z-index: 1;
+}
+.breadcrumbs a {
+  text-decoration: none;
+  color: grey;
+}
+
+.breadcrumbs p {
+  padding-left: 15px;
+  padding-right: 15px;
+  color: grey;
+}
+
+/* -------------------------------------  Start of Content  --------------------------------------- */
+
+.ourteam img {
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+  width:700px;
+}
+.ourteam h1 {
+  text-align:center;
+  font-size:320%;
+}
+		
+.founder {
+  padding-left:100px;
+  padding-top: 80px;
+  font-size: 120%;
+}
+.founder-n {
+  padding-left:150px;
+  word-spacing:260px;
+}
+
+.teachers {
+  padding-left:100px;
+  padding-top: 50px;
+  font-size: 120%;
+}
+.teachers-n1 {
+  margin-left:310px;
+  word-spacing:350px;
+}
+.teachers-n2 {
+  padding-left:150px;
+  word-spacing:260px;
+}
+
+.profile1 img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  display:inline-flex;
+  margin-left:120px;
+  margin-right:80px;
+  margin-top: 20px;
+}
+.profile2 img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  display:inline-flex;
+  margin-left:120px;
+  margin-right:80px;
+}			
+.profile-pic img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  display:inline-flex;
+  margin-left:280px;
+  margin-top: 20px;
+}
+
+.drivers {
+  padding-left:100px;
+  padding-top: 50px;
+  font-size: 120%;
+}
+.driver-n{
+  padding-left:310px;
+  word-spacing:330px;
+  padding-bottom: 50px;
+}
+
+/* ------------------------------------- End of code  --------------------------------------- */

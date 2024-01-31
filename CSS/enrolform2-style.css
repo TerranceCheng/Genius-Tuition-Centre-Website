@@ -1,0 +1,292 @@
+body {
+  font-family: Arial, Sans serif;
+  background-color: #EBF0F2;
+  padding-left: 170px;
+  padding-right: 170px;
+  left: 0;
+  right: 0;
+}
+
+.background {
+  position: relative;
+  background-color: #f2f2f2;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  left: 0;
+  right: 0;
+}
+
+.color {
+  position: relative;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  left: 0;
+  right: 0;
+}
+
+.swal-button {
+  padding: 8px 20px;
+  border-radius: 2px;
+  background-color: #0a2351;
+  font-size: 18px;
+}
+
+/* -------------------------------------  Start of Breadcrumbs  --------------------------------------- */
+
+.breadcrumbs {
+  display: inline-flex;
+  z-index: 1;
+}
+.breadcrumbs a {
+  text-decoration: none;
+  color: grey;
+}
+
+.breadcrumbs p {
+  padding-left: 15px;
+  padding-right: 15px;
+  color: grey;
+}
+
+/* -------------------------------------  Start of Content  --------------------------------------- */
+
+.feedback_form {
+  text-align: center;
+  font-size: 150%;
+  color: black;
+  padding-bottom: 25px;
+}
+
+.feedback_form-bc {
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  background-color: transparent;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box {
+  margin-bottom: 50px;
+  width: calc(100% / 2 - 40px);
+}
+
+.input-box label {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+
+.input-box input {
+  height: 45px;
+  width: 80%;
+  outline: none;
+  font-size: 18px;
+  border-radius: 1px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+  display: block;
+}
+
+.input-box.success input {
+  border-color: #2ecc71;
+}
+
+.input-box.error input {
+  border-color: #e74c3c;
+}
+
+.input-box select {
+  height: 45px;
+  width: 84%;
+  outline: none;
+  font-size: 18px;
+  border-radius: 1px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+.input-box i {
+  position: relative;
+  visibility: hidden;
+  font-size: 120%;
+  top: 10px;
+}
+
+.input-box.success i.fa-check-circle {
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.input-box.error i.fa-exclamation-circle {
+  color: #e74c3c;
+  visibility: visible;
+  left: -20px;
+}
+
+.input-box small {
+  position: relative;
+  visibility: hidden;
+  font-size: 100%;
+  top: 10px;
+}
+
+.input-box.error small {
+  color: #e74c3c;
+  visibility: visible;
+  left: -20px;
+}
+
+.submit {
+  margin-bottom: 100px;
+}
+
+.submit-button {
+  height: 45px;
+  width: 20%;
+  border-radius: 3px;
+  border: 45px 20%;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #282828;
+  float: right;
+}
+
+.submit-button:hover {
+  background-color: #5e5e5e;
+}
+
+/* testing */
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid #999999;
+  z-index: 10;
+  background-color: white;
+  width: 400px;
+  max-width: 80%;
+  height: 300px;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+  padding: 30px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cdcdcd;
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.modal-body {
+  padding: 20px 75px;
+  justify-items: center;
+  align-items: center;
+}
+
+.modal-body p {
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.modal-body button {
+  height: 45px;
+  width: 100%;
+  border-radius: 3px;
+  border: 45px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #0a2351;
+}
+
+.modal-body button:hover {
+ background-color: #b6922e;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/* testing */
+
+@media(max-width: 584px) {
+  .container {
+    max-width: 100%;
+  }
+
+ form .user-details .input-box {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+   
+  .content form .user-details {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  
+  .user-details::-webkit-scrollbar {
+    width: 5px;
+  }  
+}
+
+@media(max-width: 459px) {
+  .container .content {
+    flex-direction: column;
+  }
+}
+
+/* -------------------------------------  End of Code  --------------------------------------- */

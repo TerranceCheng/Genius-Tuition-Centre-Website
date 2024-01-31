@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, Sans serif;
+  background-color: #EBF0F2;
+  padding-left: 170px;
+  padding-right: 170px;
+  left: 0;
+  right: 0;
+}
+
+.background {
+  position: relative;
+  background-image: url('../images/background2.png');
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  left: 0;
+  right: 0;
+}
+
+.color {
+  position: relative;
+  height: auto;
+  width: auto;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* -------------------------------------  Start of Breadcrumbs  --------------------------------------- */
+
+.breadcrumbs {
+  display: inline-flex;
+  z-index: 1;
+}
+.breadcrumbs a {
+  text-decoration: none;
+  color: grey;
+}
+
+.breadcrumbs p {
+  padding-left: 15px;
+  padding-right: 15px;
+  color: grey;
+}
+
+/* -------------------------------------  Start of Content  --------------------------------------- */
+
+.ourservices {
+  text-align: center;
+  font-size: 180%;
+  margin-top: -30px;
+}
+
+.physical {
+  font-size: 140%;
+  padding-left: 8%;
+  padding-top: 30px;
+}
+
+.physical p {
+  margin-top: -15px;
+}
+
+.physical img {
+  float: right;
+  margin-top: 35px;
+  margin-right: 8%;
+  width: 40%;
+  box-shadow: 0 0 30px 0px black;
+}
+
+.online {
+  font-size: 140%;
+  padding-left: 8%;
+  padding-top: 16%;
+}
+
+.online p {
+  margin-top: -15px;
+}
+
+.online img {
+  box-shadow: 0 0 30px 0px black;
+  width: 40%;
+  margin-top: 20px;
+}
+
+.online-c {
+  float: right;
+  padding-right: 60px;
+}
+
+.transport {
+  font-size: 140%;
+  padding-left: 8%;
+  padding-top: 14%;
+}
+
+.transport p {
+  margin-top: -15px;
+}
+
+.transport img {
+  box-shadow: 0 0 30px 0px black;
+  float: right;
+  margin-top: 35px;
+  margin-right: 6%;
+  width: 40%;
+}
+
+.notice {
+  padding-left: 8%;
+  padding-bottom: 30px;
+}
+
+.notice h2 {
+  font-weight: 900;
+}
+
+/* -------------------------------------  End of Code  --------------------------------------- */

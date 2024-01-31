@@ -1,0 +1,77 @@
+/* -------------------------------------  Start of Header  --------------------------------------- */
+
+.header {
+    background-color: white;
+    height: 150px;
+    margin-top: -15px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .menu ul li {
+    width: 20%;
+    padding: 13.6px;
+    background-color: #0A2351;
+    color: white;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .menu {
+    text-align: center;
+    font-family: Times new roman;
+    padding-left: 0px;
+    width: 100%;
+  }
+  
+  .slogan {
+    float: right;
+    font-size: 120%;
+    margin-top: 20px;
+    padding-right: 25px;
+    font-family: Times new roman;
+  }
+  
+  .active, .menu ul li:hover {
+    background-color: #0F779A;
+  }
+  
+  .sub-menu-1 {
+    display: none;
+  }
+  
+  .menu ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    margin-left: -24.8px;
+    margin-top: 13px;
+    z-index: 1;
+  }
+  
+  .menu ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin-left: 11px;
+    z-index: 1;
+  }
+  
+  .menu ul li:hover .sub-menu-1 ul li {
+    width: 166.5px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-top: 0px;
+    border-bottom: 1px solid rgba(232, 232, 232, 0.3);
+    border-radius: 0;
+    text-align: center;
+  }
+  
+/* ------------------------------------- End of code  --------------------------------------- */

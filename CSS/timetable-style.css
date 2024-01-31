@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, Sans serif;
+  background-color: #EBF0F2;
+  padding-left: 170px;
+  padding-right: 170px;
+  left: 0;
+  right: 0;
+}
+
+.background {
+  position: relative;
+  background-image: url('../images/background2.png');
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  left: 0;
+  right: 0;
+}
+
+.color {
+  position: relative;
+  height: auto;
+  width: auto;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header1 {
+  background-color: white;
+  height: 150px;
+  margin-top: 16px;
+}
+
+/* -------------------------------------  Start of Breadcrumbs  --------------------------------------- */
+
+.breadcrumbs {
+  display: inline-flex;
+  z-index: 1;
+}
+.breadcrumbs a {
+  text-decoration: none;
+  color: grey;
+}
+
+.breadcrumbs p {
+  padding-left: 15px;
+  padding-right: 15px;
+  color: grey;
+}
+
+/* -------------------------------------  Start of Content  --------------------------------------- */
+
+.subjects ul{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0;
+  padding-left: 150px;
+  font-size: 220%;
+}
+
+.main1, .main2, .main3 {
+  padding: 20px;
+}
+
+.elective1, .elective2 {
+  padding: 20px;
+}
+
+.elective2 {
+  padding-bottom: 150px;
+}
+
+table,th {
+  padding:20px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  background-color:#EFD326;
+}
+
+table td {
+  padding:20px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  color:white; 
+  background-color:#0A2351;
+}
+
+/* ------------------------------------- End of code  --------------------------------------- */

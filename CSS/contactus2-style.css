@@ -1,0 +1,231 @@
+body {
+  font-family: Arial, Sans serif;
+  background-color: #EBF0F2;
+  padding-left: 170px;
+  padding-right: 170px;
+  left: 0;
+  right: 0;
+}
+
+.background {
+  position: relative;
+  background-color: #f2f2f2;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  left: 0;
+  right: 0;
+}
+
+.color {
+  position: relative;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  left: 0;
+  right: 0;
+}
+
+/* -------------------------------------  Start of Breadcrumbs  --------------------------------------- */
+
+.breadcrumbs {
+  display: inline-flex;
+  z-index: 1;
+}
+.breadcrumbs a {
+  text-decoration: none;
+  color: grey;
+}
+
+.breadcrumbs p {
+  padding-left: 15px;
+  padding-right: 15px;
+  color: grey;
+}
+
+/* -------------------------------------  Start of Content  --------------------------------------- */
+
+.feedback_form {
+  text-align: center;
+  font-size: 150%;
+  color: black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.feedback_form h1 {
+  font-size: 60px;
+  color: black;
+  padding-top: 20px;
+}
+
+.feedback_form p {
+  font-size: 35px;
+  color: #8e8e8e;
+  display: inline-block;
+  max-width: 80%;
+  padding-bottom: 20px;
+}
+
+.feedback_form-bc {
+  background-color: #f2f2f2;
+}
+
+.rating {
+  background: transparent;
+  text-align: center;
+  padding: 50px;
+}
+
+.rating p {
+  font-size: 40px;
+  color: black;
+}
+
+.star {
+  height: 50px;
+  width: 330px;
+  position: relative;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.fa-star {
+  font-size: 50px;
+  color: #8e8e8e;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  background-color: transparent;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box {
+  margin-bottom: 50px;
+  width: calc(100% / 2 - 40px);
+}
+
+.input-box label {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+
+.input-box input {
+  height: 45px;
+  width: 80%;
+  outline: none;
+  font-size: 18px;
+  border-radius: 1px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+  display: block;
+}
+
+.input-box select {
+  height: 45px;
+  width: 84%;
+  outline: none;
+  font-size: 18px;
+  border-radius: 1px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+.user-details .input-box textarea{
+  height: 200px;
+  width: 195%;
+  outline: none;
+  font-size: 18px;
+  border-radius: 1px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+.submit {
+  margin-bottom: 100px;
+  padding-right: 7.2%;
+}
+
+.submit-button {
+  height: 45px;
+  width: 20%;
+  border-radius: 3px;
+  border: 45px 20%;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #282828;
+  float: right;
+}
+
+.submit-button:hover {
+  background-color: #5e5e5e;
+}
+
+.swal-modal .swal-text {
+  text-align: center;
+}
+
+.swal-button {
+  padding: 8px 20px;
+  border-radius: 2px;
+  background-color: #0a2351;
+  font-size: 18px;
+}
+
+@media(max-width: 584px) {
+  .container {
+    max-width: 100%;
+  }
+
+ form .user-details .input-box {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+   
+  .content form .user-details {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  
+  .user-details::-webkit-scrollbar {
+    width: 5px;
+  }  
+}
+
+@media(max-width: 459px) {
+  .container .content {
+    flex-direction: column;
+  }
+}
+
+/* -------------------------------------  End of Code  --------------------------------------- */

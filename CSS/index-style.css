@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, Sans serif;
+  background-color: #EBF0F2;
+  padding-left: 170px;
+  padding-right: 170px;
+  left: 0;
+  right: 0;
+  }
+  
+.background {
+  position: relative;
+  background-image: url('../images/background1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  left: 0;
+  right: 0;
+}
+
+.welcome {
+  background: transparent;
+  text-align: center;
+  color: black;
+  font-size: 170%;
+  padding-top: 30px;
+}
+
+.welcome p {
+  font-size: 130%;
+}
+
+/* -------------------------------------  Start of Content  --------------------------------------- */
+
+.proethics img {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 120px;
+}
+
+.ul_proethics {
+  font-size: 180%;
+  display: table;
+  margin: 0 auto;
+}
+
+.friendly img {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 120px;
+}
+
+.ul_friendly {
+  font-size: 180%;
+  display: table;
+  margin: 0 auto;
+}
+
+.modern img {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 120px;
+}
+
+.ul_modern {
+  font-size: 180%;
+  display: table;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+/* ------------------------------------- End of code  --------------------------------------- */

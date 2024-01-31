@@ -1,0 +1,161 @@
+/* -------------------------------------  Start of Footer  --------------------------------------- */
+
+.footer {
+  background-color: white;
+  height: 165px;
+  font-family: Times new roman;
+  width: 100%;
+  font-size: small;
+  border-top: 2px solid rgba(232, 232, 232, 0.8);
+}
+
+.footer p {
+  color: gray;
+  padding-left: 20px;
+  margin-top: -2px;
+}
+
+.footer-nav {
+  padding-right: 10px;
+}
+
+.aboutus {
+  list-style-type: none;
+  text-align: top right;
+  float: right;
+  padding-left: 15px;
+  padding-right: 28px;
+  padding-top: 10px;
+}
+
+.aboutus ul {
+  margin-left: -38px;
+  list-style-type: none;
+}
+
+.aboutus a {
+  text-decoration: none;
+  color: black;
+}
+
+.course {
+  list-style-type: none;
+  text-align: top right;
+  float: right;
+  padding-left: 15px;
+  padding-right: 14px;
+  padding-top: 10px;
+}
+
+.course ul {
+  margin-left: -38px;
+  list-style-type: none;
+}
+
+.course a {
+  text-decoration: none;
+  color: black;
+}
+
+.services {
+  list-style-type: none;
+  text-align: top right;
+  float: right;
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.services ul {
+  margin-left: -38px;
+  list-style-type: none;
+}
+
+.services a {
+  text-decoration: none;
+  color: black;
+}
+
+.enroll {
+  list-style-type: none;
+  text-align: top right;
+  float: right;
+  padding-left: 15px;
+  padding-right: 26px;
+  padding-top: 10px;
+}
+
+.enroll ul {
+  margin-left: -38px;
+  list-style-type: none;
+}
+
+.enroll a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact {
+  list-style-type: none;
+  text-align: top right;
+  float: right;
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.contact ul {
+  margin-left: -38px;
+  list-style-type: none;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.follow {
+  list-style-type: none;
+  text-align: top right;
+  float: right;
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.follow ul {
+  list-style-type: none;
+}
+
+.follow a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-img img {
+  width: 26%;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.footer-img p {
+  margin-top: 5px;
+  padding-bottom: 2px;
+}
+
+.follow ul {
+  display: inline-flex;
+  margin-left: -50px;
+}
+
+.follow ul li i {
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.follow-icons {
+  margin-top: -15px;
+  padding-left: 17px;
+}
+
+/* ------------------------------------- End of code  --------------------------------------- */

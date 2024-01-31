@@ -1,0 +1,288 @@
+body {
+  font-family: Arial, Sans serif;
+  background-color: #EBF0F2;
+  padding-left: 170px;
+  padding-right: 170px;
+  left: 0;
+  right: 0;
+}
+
+.background {
+  position: relative;
+  background-image: url('../images/background2.png');
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  left: 0;
+  right: 0;
+}
+
+.color {
+  position: relative;
+  height: auto;
+  width: auto;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* -------------------------------------  Start of Breadcrumbs  --------------------------------------- */
+
+.breadcrumbs {
+  display: inline-flex;
+  z-index: 1;
+}
+.breadcrumbs a {
+  text-decoration: none;
+  color: grey;
+}
+
+.breadcrumbs p {
+  padding-left: 15px;
+  padding-right: 15px;
+  color: grey;
+}
+
+/* -------------------------------------  Start of Content  --------------------------------------- */
+
+.location {
+  background: transparent;
+  text-align: center;
+  color: black;
+  font-size: 200%;
+  padding-left: auto;
+  padding-top: 20px;
+}
+  
+.location_map {
+  text-align: center;
+}
+
+.social_media {
+  background: transparent;
+  text-align: center;
+  color: black;
+  font-size: 200%;
+  padding-left: auto;
+  padding-top: 100px;
+}
+
+.social_media-icon {
+  background: transparent;
+  text-align: center;
+  color: black;
+  font-size: 750%;
+  padding-left: auto;
+  padding-top: auto;
+  cursor: pointer;
+}
+
+.phone_number {
+  background: transparent;
+  text-align: center;
+  color: black;
+  padding-left: auto;
+  padding-top: 150px;
+}
+
+.phone_number h1 {
+  font-size: 75px;
+}
+
+.phone_number p {
+  font-size: 60px;
+}
+
+.email {
+  background: transparent;
+  text-align: center;
+  color: black;
+  padding-left: auto;
+  padding-top: 100px;
+}
+
+.email h1 {
+  font-size: 75px;
+}
+
+.email p {
+  font-size: 60px;
+}
+
+.feedback {
+  background: transparent;
+  text-align: center;
+  color: black;
+  font-size: 200%;
+  padding-left: auto;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.feedback-button {
+  background-color: white;
+  color: black;
+  padding: 40px 75px;
+  border: 1px solid #cdcdcd;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 36px;
+  cursor: pointer;
+  padding-left: auto;
+  padding-top: auto;
+}
+
+.feedback-button:hover {
+  background-color: #0A2351;
+  border: 1px solid white;
+  color: white;
+}
+
+/* -------------------------------------  Start of Footer  --------------------------------------- */
+
+.footer {
+  background-color: white;
+  height: 165px;
+  font-family: Times new roman;
+  width: auto;
+  font-size: small;
+}
+
+.footer p {
+  color: gray;
+  padding-left: 20px;
+  margin-top: -2px;
+}
+
+.footer-nav {
+  padding-right: 10px;
+}
+
+.aboutus {
+  list-style-type: none;
+  text-align: top right;
+  float: right;
+  padding-left: 15px;
+  padding-right: 28px;
+}
+
+.aboutus ul {
+  margin-left: -38px;
+  list-style-type: none;
+}
+
+.aboutus a {
+  text-decoration: none;
+  color: black;
+}
+
+.course {
+  list-style-type: none;
+  text-align: top right;
+  float: right;
+  padding-left: 15px;
+  padding-right: 14px;
+}
+
+.course ul {
+  margin-left: -38px;
+  list-style-type: none;
+}
+
+.course a {
+  text-decoration: none;
+}
+
+.services {
+  list-style-type: none;
+  text-align: top right;
+  float: right;
+  padding-left: 15px;
+  padding-right: 20px;
+}
+
+.services ul {
+  margin-left: -38px;
+  list-style-type: none;
+}
+
+.services a {
+  text-decoration: none;
+  color: black;
+}
+
+.enroll {
+  list-style-type: none;
+  text-align: top right;
+  float: right;
+  padding-left: 15px;
+  padding-right: 26px;
+}
+
+.enroll ul {
+  margin-left: -38px;
+  list-style-type: none;
+}
+
+.enroll a {
+  text-decoration: none;
+}
+
+.contact {
+  list-style-type: none;
+  text-align: top right;
+  float: right;
+  padding-left: 15px;
+  padding-right: 20px;
+}
+
+.contact ul {
+  margin-left: -38px;
+  list-style-type: none;
+}
+
+.contact a {
+  text-decoration: none;
+}
+
+.follow {
+  list-style-type: none;
+  text-align: top right;
+  float: right;
+  padding-left: 15px;
+  padding-right: 0;
+}
+
+.follow ul {
+  list-style-type: none;
+}
+
+.follow a {
+  text-decoration: none;
+}
+
+.footer-img img {
+  height: 100px;
+  padding-left: 10px;
+  padding-top: 20px;
+  
+}
+
+.follow ul {
+  display: inline-flex;
+  margin-left: -50px;
+}
+
+.follow ul li i {
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.follow-icons {
+  margin-top: -15px;
+  padding-left: 17px;
+}
+
+/* -------------------------------------  End of Code  --------------------------------------- */
