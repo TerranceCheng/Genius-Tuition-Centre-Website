@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Feedback Form | Genius Tuition Centre</title>
+
+  <script src="https://kit.fontawesome.com/4ea6a0317d.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="CSS/header-style.css">
+  <link rel="stylesheet" href="CSS/footer-style.css">
+  <link rel="stylesheet" href="CSS/contactus2-style.css">
+</head>
+
+<body>
+<div class = "background">
+<div class = "color">
+
+<!-------------------------------------  Start of Header  --------------------------------------->
+
+<div class = "header">
+  <p class = "slogan"> WE MAKE YOU BETTER <br><br> WE LET YOUR MIND THRIVE <br><br> WE ASSURE YOUR EXCELLENCE <p>
+
+  <div style="float:right;border-left:3px solid #d9d9d9; height: 171px; padding-right:60px; margin-top: -20px;"></div>
+
+  <a href="index.html"><img src = "images/logo.png" alt = "Logo"; style = "width: 32%; padding: 15px; padding-top: 20px;"></a>
+</div>
+
+<!-------------------------------------  Start of Navigation Bar  --------------------------------------->
+
+<div class = "menu">
+  <ul>
+    <li class = "active"; style = "margin-left: 0px; background-color: #B6922E;"><a href="index.html">HOME</a></li>
+    <li>ABOUT US
+      <div class = "sub-menu-1">
+        <ul>
+          <li><a href="whoarewe.html">WHO ARE WE</a></li>
+          <li><a href="ourTeam.html">OUR TEAM</a></li>
+        </ul>
+      </div>
+    </li>
+    <li>COURSES
+      <div class = "sub-menu-1">
+        <ul>
+          <li><a href="timetable.html">TIMETABLE</a></li>
+          <li><a href="tuitionPackage.html">TUITION PACKAGE</a></li>
+        </ul>
+      </div>
+    </li>
+    <li>ENROLL NOW
+      <div class = "sub-menu-1">
+        <ul>
+          <li><a href="enrolform.html">REGISTRATION FORM</a></li>
+          <li><a href="enrolform2.html">TRIAL CLASS FORM</a></li>
+        </ul>
+      </div>
+    </li>
+    <li><a href="services.html">SERVICES</a></li>
+    <li><a href="contactus.html">CONTACT US</a></li>
+  </ul>
+</div>
+
+<div class = "feedback_form-bc">
+    
+<!----------------------------------------  Breadcrumbs  ----------------------------------------->
+    
+<div class = "breadcrumbs">
+  <p><a href="index.html">Home</a></p>
+  <p> > </p>
+  <p>Contact Us</p>
+  <p> > </p>
+  <p>Feedback Form</p>
+</div>
+
+<!-------------------------------------  Start of Content  --------------------------------------->
+
+
+<div class = "feedback_form">
+  <h1>Feedback Form</h1>
+  <p>We would like to hear about your thoughts, suggesstions, concerns or problems with anything so we can improve!</p>
+</div>
+</div>
+
+<div class = "rating">
+  <p>How would you rate our services ?</p>
+  <div class = "star">
+    <i class="fa fa-star" aria-hidden="true" id="s1"></i>
+    <i class="fa fa-star" aria-hidden="true" id="s2"></i>
+    <i class="fa fa-star" aria-hidden="true" id="s3"></i>
+    <i class="fa fa-star" aria-hidden="true" id="s4"></i>
+    <i class="fa fa-star" aria-hidden="true" id="s5"></i>
+  </div>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $("#s1").click(function(){
+        $(".fa-star").css("color","#8e8e8e");
+        $("#s1").css("color","#b6922e");
+      });
+      $("#s2").click(function(){
+        $(".fa-star").css("color","#8e8e8e");
+        $("#s1,#s2").css("color","#b6922e");
+      });
+      $("#s3").click(function(){
+        $(".fa-star").css("color","#8e8e8e");
+        $("#s1,#s2,#s3").css("color","#b6922e");
+      });
+      $("#s4").click(function(){
+        $(".fa-star").css("color","#8e8e8e");
+        $("#s1,#s2,#s3,#s4").css("color","#b6922e");
+      });
+      $("#s5").click(function(){
+        $(".fa-star").css("color","#8e8e8e");
+        $(".fa-star").css("color","#b6922e");
+      });
+    });
+  </script>
+</div>
+
+<div class="container">
+  <div class="content">
+    <div id="error"></div>
+    <form class="form" id="form" name="form">
+      <div class="user-details">
+        <div class="input-box">
+          <label>Name</label>
+          <input type="text" id="uname" placeholder="Name">
+        </div>
+        <div class="input-box">
+          <label>Phone Number</label>
+          <input type="tel" id="ucontact" placeholder="+60XXXXXXXXX">
+        </div>
+        <div class="input-box">
+          <label>Date</label>
+          <input type="text" id="date">
+          <script>
+            var today = new Date();
+            var date = (today.getMonth()+1)+'/'+today.getDate()+'/'+today.getFullYear();
+            document.getElementById("date").value = date;
+          </script>
+        </div>
+        <div class="input-box">
+          <label>Email</label>
+          <input type="email" id="uemail" placeholder="Email">
+        </div>
+        <div class="input-box">
+          <label>Your Feedback</label>
+          <textarea name = "your_feedback" id="ufeedback" placeholder = "Your message here"></textarea>
+        </div>
+        </div>
+        <div class="submit">
+          <button type="button" class="submit-button" id="submit">SUBMIT</button>
+        </div>
+    </form>
+  </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<!-- SweetAlert -->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script src="JS/contactus2.js"></script>
+
+<!-------------------------------------  Start of Footer  --------------------------------------->
+
+<div class = "footer">
+<div class = "footer-nav">
+  <div class = "follow">
+    <h3>FOLLOW US</h3>
+    <ul>
+      <li><i class="fab fa-facebook"></i></li>
+      <li><i class="fab fa-twitter"></i></li>
+      <li><i class="fab fa-instagram"></i></li>
+    </ul>
+    <br>
+    <div class = "follow-icons">
+    <ul>
+      <li><i class="fab fa-whatsapp"></i></li>
+      <li><i class="fab fa-youtube"></i></li>
+    </ul>
+    </div>
+  </div>
+  
+	<div class = "contact">
+		<h3>CONTACT US</h3>
+		<ul>
+		  <li><a href="contactus.html#google_map">Location</a></li>
+		  <li><a href="contactus.html#social_link">Social Media</a></li>
+		  <li><a href="contactus.html#hp_link">Phone Number</a></li>
+		  <li><a href="contactus.html#email_link">Email</a></li>
+		  <li><a href="contactus2.html">Feedback</a></li>
+		</ul>
+	  </div>
+  
+  <div class = "services">
+    <h3>SERVICES</h3>
+    <ul>
+      <li><a href="services.html">Physical Classes</a></li>
+      <li><a href="services.html">Online Classes</a></li>
+      <li><a href="services.html">Transportation</a></li>
+    </ul>
+  </div>
+  
+  <div class = "enroll">
+    <h3>ENROLL NOW</h3>
+    <ul>
+      <li><a href="enrolform.html">Registration Form</a></li>
+      <li><a href="enrolform2.html">Trial Class Form</a></li>
+    </ul>
+  </div>
+  
+  <div class = "course">
+    <h3>COURSE</h3>
+    <ul>
+      <li><a href="timetable.html">Timetable</a></li>
+      <li><a href="tuitionPackage.html">Tuition Package</a></li>
+    </ul>
+  </div>
+  
+  <div class = "aboutus">
+    <h3>ABOUT US</h3>
+    <ul>
+      <li><a href="whoarewe.html">Who Are We</a></li>
+      <li><a href="ourTeam.html">Our Team</a></li>
+    </ul>
+  </div>
+</div>
+
+  <div class = "footer-img">
+      <a href="index.html"><img src = "images/logo.png" alt = "Logo"></a>
+      <p>© 2021 Genius Tuition Centre | Privacy Policy</p>
+    </div>
+
+  <div class = "script">
+    
+    <script>
+      var dt=new Date(document.lastModified);
+      document.write("<mark> This page was last modified on " +
+                dt.toLocaleString() + "</mark>");
+    </script>
+  </div>
+
+</div>
+</div>
+</body>
+</html>

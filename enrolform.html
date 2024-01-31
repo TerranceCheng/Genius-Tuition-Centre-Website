@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!--------------------------------- Required meta tags --------------------------------->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Registration Form | Genius Tuition Centre</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="CSS/header-style.css">
+        <link rel="stylesheet" href="CSS/footer-style.css">
+        <link rel="stylesheet" href="CSS/enrolform-style.css">
+</head>
+
+<body>
+<div class = "background">
+<div class = "color">
+
+<!-------------------------------------  Start of Header  --------------------------------------->
+
+<div class = "header">
+  <p class = "slogan"> WE MAKE YOU BETTER <br><br> WE LET YOUR MIND THRIVE <br><br> WE ASSURE YOUR EXCELLENCE <p>
+
+  <div style="float:right;border-left:3px solid #d9d9d9; height: 171px; padding-right:60px; margin-top: -20px;"></div>
+
+  <a href="index.html"><img src = "images/logo.png" alt = "Logo"; style = "width: 32%; padding: 15px; padding-top: 20px;"></a>
+</div>
+
+<!-------------------------------------  Start of Navigation Bar  --------------------------------------->
+
+<div class = "menu">
+  <ul>
+    <li class = "active"; style = "margin-left: 0px; background-color: #B6922E;"><a href="index.html">HOME</a></li>
+    <li>ABOUT US
+      <div class = "sub-menu-1">
+        <ul>
+          <li><a href="whoarewe.html">WHO ARE WE</a></li>
+          <li><a href="ourTeam.html">OUR TEAM</a></li>
+        </ul>
+      </div>
+    </li>
+    <li>COURSES
+      <div class = "sub-menu-1">
+        <ul>
+          <li><a href="timetable.html">TIMETABLE</a></li>
+          <li><a href="tuitionPackage.html">TUITION PACKAGE</a></li>
+        </ul>
+      </div>
+    </li>
+    <li>ENROLL NOW
+      <div class = "sub-menu-1">
+        <ul>
+          <li><a href="enrolform.html">REGISTRATION FORM</a></li>
+          <li><a href="enrolform2.html">TRIAL CLASS FORM</a></li>
+        </ul>
+      </div>
+    </li>
+    <li><a href="services.html">SERVICES</a></li>
+    <li><a href="contactus.html">CONTACT US</a></li>
+  </ul>
+  </div>
+
+<div class = "feedback_form-bc">
+    
+<!----------------------------------------  Breadcrumbs  ----------------------------------------->
+    
+<div class = "breadcrumbs">
+  <p><a href="index.html">Home</a></p>
+  <p> > </p>
+  <p>Enroll Now</p>
+  <p> > </p>
+  <p><a href="enrolform.html">Registration Form</a></p>
+</div>
+
+<!-------------------------------------  Start of Content  --------------------------------------->
+
+<div class = "feedback_form">
+  <h1>Student Registration Form</h1>
+</div>
+</div>
+
+<div class="container">
+  <div class="content">
+    <div id="error"></div>
+    <form class="form" id="form" name="form">
+      <div class="user-details">
+        <div class="input-box">
+          <label>Student Name</label>
+          <input type="text" id="sname" placeholder="Student Name">
+        </div>
+        <div class="input-box">
+          <label>Parents Name</label>
+          <input type="text" id="pname" placeholder="Parents Name">
+        </div>
+        <div class="input-box">
+          <label>Birth Date</label>
+          <input type="date" id="bdate">
+        </div>
+        <div class="input-box">
+          <label>Parents Occupation</label>
+          <input type="text" id="poccupation" placeholder="Parents Occupation">
+        </div>
+        <div class="input-box">
+          <label>Student IC</label>
+          <input type="text" id="sicno" placeholder="XXXXXX-XX-XXXX">
+        </div>
+        <div class="input-box">
+          <label>Parents IC</label>
+          <input type="text" id="picno" placeholder="XXXXXX-XX-XXXX">
+        </div>
+        <div class="input-box">
+          <label>Student Contact</label>
+          <input type="tel" id="scontact" placeholder="+60XXXXXXXXX">
+        </div>
+        <div class="input-box">
+          <label>Parents Contact</label>
+          <input type="tel" id="pcontact" placeholder="+60XXXXXXXXX">
+        </div>
+        <div class="input-box">
+          <label>School</label>
+          <input type="text" id="school" placeholder="School Name">
+        </div>
+        <div class="input-box">
+          <label>Intended Courses</label>
+          <select name="courses" id="courses">
+            <option value = "">--- Please choose your subjects ---</option>
+            <option value = "bm">Bahasa Melayu</option>
+            <option value = "en">English</option>
+            <option value = "sc">Science</option>
+            <option value = "es">Essay</option>
+            <option value = "kr">Karangan</option>
+            <option value = "mm">Mathematics</option>
+            <option value = "ge">Geography</option>
+            <option value = "hi">History</option>
+            <option value = "ch">Chemistry</option>
+            <option value = "bi">Biology</option>
+            <option value = "ph">Physics</option>
+            <option value = "pa">Principal Account</option>
+            <option value = "am">Additional Mathematics</option>
+          </select>
+        </div>
+        </div>
+        <div class="submit">
+          <button type="button" class="submit-button" id="submit">SUBMIT</button>
+        </div>
+    </form>
+  </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<!-- SweetAlert -->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script src="JS/enrolform.js"></script>
+
+<!-------------------------------------  Start of Footer  --------------------------------------->
+
+<div class = "footer">
+<div class = "footer-nav">
+  <div class = "follow">
+    <h3>FOLLOW US</h3>
+    <ul>
+      <li><i class="fab fa-facebook"></i></li>
+      <li><i class="fab fa-twitter"></i></li>
+      <li><i class="fab fa-instagram"></i></li>
+    </ul>
+    <br>
+    <div class = "follow-icons">
+    <ul>
+      <li><i class="fab fa-whatsapp"></i></li>
+      <li><i class="fab fa-youtube"></i></li>
+    </ul>
+    </div>
+  </div>
+  
+	<div class = "contact">
+		<h3>CONTACT US</h3>
+		<ul>
+		  <li><a href="contactus.html#google_map">Location</a></li>
+		  <li><a href="contactus.html#social_link">Social Media</a></li>
+		  <li><a href="contactus.html#hp_link">Phone Number</a></li>
+		  <li><a href="contactus.html#email_link">Email</a></li>
+		  <li><a href="contactus2.html">Feedback</a></li>
+		</ul>
+	  </div>
+  
+  <div class = "services">
+    <h3>SERVICES</h3>
+    <ul>
+      <li><a href="services.html">Physical Classes</a></li>
+      <li><a href="services.html">Online Classes</a></li>
+      <li><a href="services.html">Transportation</a></li>
+    </ul>
+  </div>
+  
+  <div class = "enroll">
+    <h3>ENROLL NOW</h3>
+    <ul>
+      <li><a href="enrolform.html">Registration Form</a></li>
+      <li><a href="enrolform2.html">Trial Class Form</a></li>
+    </ul>
+  </div>
+  
+  <div class = "course">
+    <h3>COURSE</h3>
+    <ul>
+      <li><a href="timetable.html">Timetable</a></li>
+      <li><a href="tuitionPackage.html">Tuition Package</a></li>
+    </ul>
+  </div>
+  
+  <div class = "aboutus">
+    <h3>ABOUT US</h3>
+    <ul>
+      <li><a href="whoarewe.html">Who Are We</a></li>
+      <li><a href="ourTeam.html">Our Team</a></li>
+    </ul>
+  </div>
+</div>
+
+    <div class = "footer-img">
+      <a href="index.html"><img src = "images/logo.png" alt = "Logo"></a>
+      <p>© 2021 Genius Tuition Centre | Privacy Policy</p>
+    </div>
+
+  <div class = "script">
+    <script>
+      var dt=new Date(document.lastModified);
+      document.write("<mark> This page was last modified on " +
+                dt.toLocaleString() + "</mark>");
+    </script>
+  </div>
+
+</div>
+</div>
+</body>
+</html>
+
+<!-------------------------------------  End of code  --------------------------------------->
